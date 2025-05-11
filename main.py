@@ -22,3 +22,8 @@ class RemoteController:
         self.brand = marka
         self.model = model
         self.color = renk
+
+    def clear(self):
+        self.brand = ""
+        self.model = ""
+        self.color = ""
